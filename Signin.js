@@ -43,7 +43,7 @@ export default function Signin({navigation}) {
       </View>
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.button} >
-          <Text style={styles.buttonText} onPress={()=>navigation.navigate("Login")}>Geri Dön</Text>
+          <Text style={styles.buttonText} onPress={()=>navigation.navigate("Login")}>Hesap oluştur</Text>
         </TouchableOpacity>
       </View>
     </View>
